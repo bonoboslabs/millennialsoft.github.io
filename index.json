@@ -1,27 +1,13 @@
 {
     "applinks": {
+        "apps": [],
         "details": [
             {
-                "appIDs": [
-                    "23B5KPVKK4.com.drivewyze.Agatha"
-                ],
-                "components": [
-                    {
-                        "/": "/login",
-                        "comment": "Matches any URL with a path that starts with /login/."
-                    },
-                    {
-                        "/": "/help/*",
-                        "exclude": true,
-                        "comment": "Matches any URL with a path that starts with /help/website/ and instructs the system not to open it as a universal link."
-                    }
+                "appID": "23B5KPVKK4.com.drivewyze.Agatha",
+                "paths": [
+                    "*"
                 ]
             }
-        ]
-    },
-    "webcredentials": {
-        "apps": [
-            "23B5KPVKK4.com.drivewyze.Agatha"
         ]
     }
 }
